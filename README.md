@@ -1,2 +1,2 @@
 # escenas
- https://ghiglionemag.github.io/escenas/
+Para que funcione hay que instalar Parcel!
