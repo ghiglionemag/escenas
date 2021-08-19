@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Escenas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css"/s>
+    <script defer src="index.ts"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="header">
+        <form class="header-form" action="">
+          <button type="submit" class="header-logInButton" name="login-button">
+            LogIn
+          </button>
+        
+          <input
+            class="header-searchInPut"
+            type="text"
+            id="search-header"
+            name="search-header"
+          />
+          <button type="submits" class="header-searchButton" name="search-button">
+            Buscar
+          </button>
+        </form>
+      </header>
+      <div class="conteiner-menu">
+        <nav class="menu">
+          <a class="link-interno menu-inbox" href="/inbox">Inbox</a>
+          <a class="link-interno menu-sent" href="/sent">Sent</a>
+        </nav>
+        <div class="content"></div>
+      </div>
+    </div>
+  </body>
+</html>

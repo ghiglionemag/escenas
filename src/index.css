@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.contenedor {
+  min-width: 375px;
+}
+.header {
+  height: 94px;
+  background-color: #000000;
+  padding: 25px;
+}
+.header-form {
+  margin: 0px auto;
+  max-width: 610px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logInButton,
+.header-searchInPut,
+.header-searchButton {
+  font-family: "Roboto";
+  height: 44px;
+}
+.header-logInButton {
+  border: #849fff solid;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #849fff;
+}
+.header-searchInPut {
+  display: flex;
+  flex-grow: 1;
+  margin: 0px 12px;
+  border-radius: 8px;
+}
+.header-searchButton {
+  border: #393939 solid;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #393939;
+  color: #fafafa;
+}
+.conteiner-menu {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 610px) {
+  .conteiner-menu {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 710px;
+    background-color: #c4c4c4;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 27px;
+  }
+  .link-interno {
+    height: 73px;
+    margin: 27px 0px;
+  }
+}
+
+.menu {
+  display: flex;
+  height: 61px;
+}
+
+.link-interno {
+  text-decoration: none;
+  color: #000000;
+}
+.menu-inbox {
+  color: #fafafa;
+  padding: 20px 0px;
+  font-family: "Roboto";
+  text-align: center;
+  flex-grow: 1;
+  background-color: #393939;
+}
+.menu-sent {
+  color: #fafafa;
+  padding: 20px 0px;
+  text-align: center;
+  font-family: "Roboto";
+  flex-grow: 1;
+  background-color: #888888;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff59b;
+  min-height: 512px;
+}
+.content-title {
+}
+
+.inbox-title,
+.sent-title {
+  font-family: "Roboto";
+  padding: 0px 22px;
+}
+.inbox-list,
+.sent-list {
+  padding: 0px 22px;
+  list-style: none;
+}
+.sent-listItem,
+.inbox-listItem {
+  border: 2px solid #000000;
+  min-width: 334px;
+  max-width: 698px;
+  height: 73px;
+  margin: 12px 0px;
+  padding: 22px 18px;
+  background-color: #fffde8;
+  color: #000000;
+  font-family: "Roboto";
+  text-decoration: none;
+}
